@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 97vh;
+}
+.container1, .container2, .container3{
+    width: 230px;
+    display: inline-block;
+    padding: 70px 25px 40px 25px;
+}
+.container1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.icon{
+    margin-left: 20px;
+}
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.description{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 12px;
+    width: 178px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom:70px;
+    margin-left: 20px;
+}
+.container2{
+    background-color: hsl(184, 100%, 22%);
+}
+.container3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn1, .btn2, .btn3{
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    margin-left: 20px   ;
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+    background-color: transparent;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
